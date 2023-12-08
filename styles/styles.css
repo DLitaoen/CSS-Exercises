@@ -221,7 +221,8 @@
     justify-content: space-evenly; 
     align-items: center;
     padding: 5px;
-    width: 350px;
+    width: 25%;
+    min-width: 250px;
     background: #f5f5f5;
     border-radius: 10px;
 }
@@ -247,3 +248,257 @@
 }
 
 /* Exercise 6 */
+
+#container6 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    max-width: 700px;
+    align-items: start;
+}
+
+#container6 > div {
+    background: #f5f5f5;
+    padding: 20px;
+}
+
+#container6-1 {
+    font-size: 30px;
+    text-align: center;
+    height: 190px;
+    line-height: 190px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 4;
+    grid-column-end: 3;
+}
+
+#container6-2 {
+    font-size: 24px;
+    font-weight: 600;
+    height: 30px;
+    line-height: 30px;
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-row-end: 2;
+    grid-column-end: 6;
+}
+
+#container6-3 {
+    height: 30px;
+    line-height: 30px;
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-row-end: 3;
+    grid-column-end: 6;
+}
+
+#container6-4 {
+    height: 30px;
+    line-height: 30px;
+    grid-row-start: 3;
+    grid-column-start: 3;
+    grid-row-end: 4;
+    grid-column-end: 6;
+}
+  
+/* Exercise 7 */
+
+#container7-1 {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    height: 60px;
+    max-width: 700px;
+    background: #f5f5f5;
+    margin-bottom: 10px;
+}
+
+#container7-logo {
+    border-color: black;
+    border-style: solid;
+    border-width: 1.5px;
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    text-align: center;
+}
+
+#container7-1 a {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+#container7-1 a:link {
+    color: black;
+    text-decoration: none;
+}
+
+#container7-1 a:hover {
+    background-color: #e1e1e1;
+    transition: background-color 0.25s;
+}
+
+#container7-1 a:active, a:visited {
+    color: black;
+}
+
+#container7-2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    max-width: 700px;
+    align-items: start;
+}
+
+#container7-2 > div {
+    background: #f5f5f5;
+    padding: 20px;
+}
+
+#container7-2a {
+    font-size: 30px;
+    text-align: center;
+    height: 190px;
+    line-height: 190px;
+    grid-row-start: 1;
+    grid-column-start: 4;
+    grid-row-end: 3;
+    grid-column-end: 6;
+}
+
+#container7-2b {
+    font-size: 24px;
+    font-weight: 600;
+    height: 70px;
+    line-height: 30px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 4;
+}
+
+#container7-2c {
+    height: 70px;
+    line-height: 30px;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 4;
+}
+
+#container7-2d {
+    height: 70px;
+    line-height: 30px;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-row-end: 4;
+    grid-column-end: 6;
+}
+
+#container7-3 {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    max-width: 700px;
+    height: 60px;
+    background: #f5f5f5;
+    margin-top: 10px;
+}
+
+#container7-3b {
+    padding: 20px;
+}
+
+/* Exercise 8 */
+
+#container8 {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.container8-card {
+    margin: 0 1rem;
+    max-width: 300px;
+    flex: 1;
+    
+}
+  
+.container8-body {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container8-user {
+    height: 80px;
+    width: 80px;
+    color: black;
+    margin: 10px auto -10px auto;
+    padding: 0;
+    text-align: center;
+}
+
+.container8-name {
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.container8-location {
+    color: black;
+    text-align: center;
+}
+
+.container8-rating {
+    color: rgb(253, 180, 42);
+    margin: 10px 0;
+    text-align: center;
+}
+
+.container8-review {
+    max-width: 280px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    color: rgb(150, 150, 150);
+}
+
+/* Exercise 9 */
+
+.container9-box {
+    font-weight: 500;
+    text-align: center;
+    margin: 5px;
+    border: 2px solid black;
+    float: left;
+}
+
+#container9-1 {
+    background-color: rgb(234, 71, 71);
+    height: 200px;
+    width: 350px;
+}
+
+#container9-2 {
+    background-color: rgb(65, 157, 57);
+    height: 70px;
+    width: 100px;
+}
+
+#container9-3 {
+    background-color: rgb(62, 133, 200);
+    height: 160px;
+    width: 200px;
+}
+
+#container9-4 {
+    background-color: #f5f5f5;
+    height: 140px;
+    width: 90px;
+}
